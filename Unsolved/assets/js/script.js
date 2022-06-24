@@ -22,7 +22,7 @@ var unix = moment().format('X');
 $("#5a").text(unix);
 
 // TODO: 6. Parse the following Unix timestamp, 1318781876, and convert into any time/date format.
-var unixFormat;
+var unixFormat = moment(1318781876, 'X');
 //var unixFormat = moment.unix(1318781876).format('MMM Do, YYYY');
 $("#6a").text(unixFormat);
 
