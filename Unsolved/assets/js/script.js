@@ -13,7 +13,7 @@ var now = moment().dayOfYear();
 $("#3a").text(now);
 
 // TODO: 4. What is the current time in the format: hours:minutes:seconds
-var time;
+var time = moment().format('hh:mm:ss a');
 $("#4a").text(time);
 
 // TODO: 5. What is the current Unix timestamp?
