@@ -4,7 +4,7 @@ var gradDate = moment ('11-17-2022').format('MMM Do, YYYY');
 $("#1a").text(gradDate);
 
 // TODO: 2. What day of the week will 1/1/2022 be?
-var weekDay;
+var weekDay = moment('1-1-2022', 'M-D-YYYY').format('dddd');
 $("#2a").text(weekDay);
 
 // TODO: 3. Out of 365, what day of the year is today?
