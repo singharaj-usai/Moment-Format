@@ -18,7 +18,7 @@ $("#4a").text(time);
 
 // TODO: 5. What is the current Unix timestamp?
 //var unix = moment().unix();
-var unix;
+var unix = moment().format('X');
 $("#5a").text(unix);
 
 // TODO: 6. Parse the following Unix timestamp, 1318781876, and convert into any time/date format.
