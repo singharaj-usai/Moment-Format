@@ -8,7 +8,7 @@ var weekDay = moment('1-1-2022', 'M-D-YYYY').format('dddd');
 $("#2a").text(weekDay);
 
 // TODO: 3. Out of 365, what day of the year is today?
-var now;
+var now = moment().dayOfYear();
 //var now = moment().format("DDD");
 $("#3a").text(now);
 
